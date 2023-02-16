@@ -62,16 +62,25 @@
   }
 
   .button-collaboration {
-    width: 95%;
+    width: 80%;
     align-self: center;
     background: #1a2236;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px hidden;
+
   }
 
   .button-collaboration:hover {
-    background: #fcf9f9;
+    background: #fff;
     color: #1a2236;
-    font-weight: 600;
+    font-weight: 500;
+    border: solid 1px #1a2236;
   }
 }
