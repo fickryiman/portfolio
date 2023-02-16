@@ -3,10 +3,10 @@
   padding: 0;
 }
 
-@media only screen and (min-width: 768px){
-}
+/* @media only screen and (min-width: 768px){
+} */
 
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 375px) {
   .flex-header {
     display: flex;
     flex-flow: row wrap;
@@ -15,21 +15,17 @@
     margin: 0;
     list-style: none;
   }
-  
   .img-header {
     flex-grow: 2;
   }
-  
   .ic-menu {
     flex-grow: 2;
   }
-  
   .flex-main {
     display: flex;
     flex-flow: column wrap;
     gap: 15px;
   }
-  
   .name {
     /* Charlie Giorgania */
     font-family: 'Playfair Display', serif;
@@ -43,7 +39,6 @@
     margin-left: 15px;
     width: 80%;
   }
-  
   .greetings {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -58,7 +53,6 @@
     flex-direction: column;
     gap: 10px;
   }
-  
   .button-collaboration {
     width: 95%;
     align-self: center;
@@ -66,7 +60,6 @@
     color: #FFFFFF;
     padding: 10px;
   }
-  
   .button-collaboration:hover {
     background: #fcf9f9;
     color: #1A2236;
