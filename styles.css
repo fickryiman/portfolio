@@ -82,4 +82,39 @@
     font-weight: 500;
     border: solid 1px #1a2236;
   }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-projects {
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .projects p {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    padding-left: 20px;
+  }
+
+  /* .project-img-rectangle {
+  } */
+
+  .project-info {
+    display: grid;
+  }
+
+  .project-info-img {
+    width: 100%;
+    margin-top: -2px;
+  }
 }
