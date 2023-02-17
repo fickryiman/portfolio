@@ -368,10 +368,11 @@
     border-top-right-radius: 5px;
   }
 
-  .yours input, .yours textarea {
+  .yours input, 
+  .yours textarea {
     width: 85%;
     border: none;
-    background:#fff;
+    background: #fff;
     outline: none;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
