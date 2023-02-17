@@ -326,6 +326,7 @@
   .get-started-background {
     background: #ebebee;
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .get-started-section > p {
@@ -404,5 +405,32 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 70px;
+  }
+
+  footer {
+    background: #1a2236;
+    color: #98dede;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  footer h2 {
+    padding-top: 45px;
+    padding-left: 25px;
+    padding-bottom: 55px;
+    letter-spacing: 2px;
+  }
+
+  .icon-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    padding-left: 25px;
+    width: 38px;
+    height: 38px;
+    padding-bottom: 50px;
   }
 }
