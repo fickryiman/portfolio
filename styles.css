@@ -103,11 +103,15 @@
     padding-left: 20px;
   }
 
+  .project-img-rectangle {
+    width: 100%;
+  }
+
   .project-info {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-top: -2px;
+    margin-top: -10px;
     background: #1A2236;
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.5px);
@@ -122,7 +126,7 @@
     line-height: 80%;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-top: 25px;
+    margin-top: 30px;
   }
 
   .stack-list {
@@ -154,7 +158,7 @@
     line-height: 24px;
     text-align: left;
     color: #FFFFFF;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     border: 1px solid #FFFFFF;
     padding: 10px 20px;
   }
