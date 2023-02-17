@@ -407,7 +407,14 @@
     margin-bottom: 70px;
   }
 
-  footer {
+  .button-get-started:hover {
+    background: #fff;
+    color: #1a2236;
+    font-weight: 500;
+    border: solid 1px #1a2236;
+  }
+
+  .footer {
     background: #1a2236;
     color: #98dede;
     font-family: 'Poppins', sans-serif;
@@ -417,7 +424,7 @@
     line-height: 24px;
   }
 
-  footer h2 {
+  .footer h2 {
     padding-top: 45px;
     padding-left: 25px;
     padding-bottom: 55px;
