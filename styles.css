@@ -112,7 +112,7 @@
     flex-direction: column;
     gap: 25px;
     margin-top: -10px;
-    background: #1A2236;
+    background: #1a2236;
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.5px);
     padding-left: 30px;
@@ -135,7 +135,7 @@
     font-weight: 300;
     font-size: 11px;
     line-height: 80%;
-    color: #1A2236;
+    color: #1a2236;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -150,16 +150,16 @@
 
   .see-project {
     width: fit-content;
-    background: #1A2236;
+    background: #1a2236;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 20px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     padding: 10px 20px;
   }
 }
