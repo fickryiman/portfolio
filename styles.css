@@ -91,7 +91,7 @@
     width: 100%;
   }
 
-  .projects p {
+  .projects > p {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -103,15 +103,59 @@
     padding-left: 20px;
   }
 
-  /* .project-img-rectangle {
-  } */
-
   .project-info {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -2px;
+    background: #1A2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 30px;
   }
 
-  .project-info-img {
-    width: 100%;
-    margin-top: -2px;
+  .project-info p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 80%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-top: 25px;
+  }
+
+  .stack-list {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 80%;
+    color: #1A2236;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-start;
+  }
+
+  .stack {
+    background: #98dede;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 0.1em;
+  }
+
+  .see-project {
+    width: fit-content;
+    background: #1A2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
   }
 }
