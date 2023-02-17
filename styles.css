@@ -80,9 +80,32 @@
     background: #fcf9f9;
     color: #1a2236;
     font-weight: 600;
+    border: 1px solid #1a2236;
   }
 
-  .projects {
+  .button-about{
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    background: #1a2236;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    border: 1px hidden;
+    margin-top: 20px;
+  }
+
+  .button-about:hover {
+    background: #98dede;
+    font-weight: 600;
+  }
+
+  .projects-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +124,7 @@
     line-height: 100%;
     color: #1a2236;
     margin-top: 55px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     padding-left: 20px;
   }
 
@@ -163,5 +186,11 @@
     margin-bottom: 20px;
     border: 1px solid #fff;
     padding: 10px 20px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
   }
 }
