@@ -1,4 +1,5 @@
-* {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -106,9 +107,8 @@
   }
 
   .projects-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .img-projects {
@@ -123,9 +123,14 @@
     font-size: 50px;
     line-height: 100%;
     color: #1a2236;
-    margin-top: 55px;
-    margin-bottom: 35px;
+    margin-top: 65px;
+    margin-bottom: 45px;
     padding-left: 20px;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .project-img-rectangle {
@@ -143,7 +148,7 @@
     padding-left: 30px;
   }
 
-  .project-info p {
+  .project-info h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -165,12 +170,20 @@
     flex-direction: row;
     gap: 15px;
     justify-content: flex-start;
+    list-style: none;
   }
 
   .stack {
     background: #98dede;
     padding: 10px 15px 10px 15px;
     letter-spacing: 0.1em;
+  }
+
+  .stack:hover {
+    background: #1a2236;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 0.1em;
+    color: #fff;
   }
 
   .see-project {
@@ -186,6 +199,11 @@
     margin-bottom: 20px;
     border: 1px solid #fff;
     padding: 10px 20px;
+  }
+
+  .see-project:hover {
+    background: #fff;
+    color: #1a2236;
   }
 
   .about-section {
@@ -326,6 +344,7 @@
   .get-started-background {
     background: #ebebee;
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .get-started-section > p {
@@ -370,7 +389,7 @@
 
   .yours input,
   .yours textarea {
-    width: 85%;
+    width: 83.5%;
     border: none;
     background: #fff;
     outline: none;
@@ -404,5 +423,39 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 70px;
+  }
+
+  .button-get-started:hover {
+    background: #fff;
+    color: #1a2236;
+    font-weight: 500;
+    border: solid 1px #1a2236;
+  }
+
+  .footer {
+    background: #1a2236;
+    color: #98dede;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer h2 {
+    padding-top: 45px;
+    padding-left: 8vw;
+    padding-bottom: 55px;
+    letter-spacing: 2px;
+  }
+
+  .icon-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    padding-left: 8vw;
+    width: 24px;
+    height: 24px;
+    padding-bottom: 50px;
   }
 }
