@@ -145,7 +145,7 @@ html {
     background: #1a2236;
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.5px);
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
   .project-info h3 {
@@ -157,9 +157,11 @@ html {
     letter-spacing: 0.02em;
     color: #fff;
     margin-top: 30px;
+    margin-bottom: 0;
   }
 
   .stack-list {
+    width: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -168,15 +170,17 @@ html {
     color: #1a2236;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     justify-content: flex-start;
     list-style: none;
+    padding-inline-start: 0;
   }
 
   .stack {
     background: #98dede;
     padding: 10px 15px 10px 15px;
     letter-spacing: 0.1em;
+    width: fit-content;
   }
 
   .stack:hover {
