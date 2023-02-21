@@ -400,8 +400,8 @@ html {
     background: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 15px;
     line-height: 15px;
     padding-left: 5%;
     padding-right: 5%;
@@ -419,19 +419,45 @@ html {
     height: 200px;
   }
 
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(29, 28, 28); /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0); 
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0); 
+  }
+
   .button-get-started {
     width: 90%;
     background: #1a2236;
     color: #fff;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
     border: 1px hidden;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 70px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 50px;
   }
 
   .button-get-started:hover {
@@ -439,6 +465,11 @@ html {
     color: #1a2236;
     font-weight: 500;
     border: solid 1px #1a2236;
+  }
+
+  .button-get-started:active {
+    background: #1a2236;
+    color: #ffffff;
   }
 
   .footer {
