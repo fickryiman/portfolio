@@ -4,8 +4,11 @@ html {
   padding: 0;
 }
 
-/* @media only screen and (min-width: 768px){
-} */
+@media only screen and (min-width: 768px){
+  .mobile-header {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 375px) {
   .flex-header {
