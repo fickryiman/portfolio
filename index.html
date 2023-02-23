@@ -7,13 +7,24 @@
   , initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/desktop.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
   <title>Fickry Porfolio</title>
 </head>
 <body>
-  <header>
+  
+  <nav class="header">
+    <!-- header for desktop-version -->
+    <ul class="desktop-flex-header">
+      <li class="desktop-flex-header-item active">Hello</li>
+      <li class="desktop-flex-header-item">Portfolio</li>
+      <li class="desktop-flex-header-item">About</li>
+      <li class="desktop-flex-header-item">Contact</li>
+    </ul>
+    <!-- end of header for desktop-version -->
+    <!-- header for mobile version -->
     <ul class="flex-header">
       <li class="flex-item">
         <a href="#"><img src="./images/image_geometry_1.png" alt="image_geometry_1" class="img-header" srcset=""></a>
@@ -25,32 +36,43 @@
         </nav>
       </li>
     </ul>
-  </header>
+  </nav>
+  <!-- end of header for mobile version -->
   <main class="flex-main">
-    <h1 class="name">Fickry <br>Bil Iman</h1>
-    <div class="greetings">
-      <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</h3>
-      <h3>If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
-    </div>
-    <button type="button" class="button-collaboration">Start collaboration</button>
+    <section class="left-main">
+      <h1 class="name">Fickry <br>Bil Iman</h1>
+      <div class="greetings">
+        <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</h3>
+        <h3>If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
+        <button type="button" class="button-collaboration">Start collaboration</button>
+      </div>
+      <img src="./images/image_dots.png" alt="dot-image" class="dot-image-1" srcset="">
+    </section>
+    <section class="right-main">
+      <img src="./images/image-geometry_1.png" alt="image-geometry_1" class="img-projects-desktop" srcset="">
+      <img src="./images/image_geometry_2.png" alt="image_geometry_2" class="img-projects-mobile" srcset="">
+    </section>
   </main>
   <section class="projects-section">
-    <img src="./images/image_geometry_2.png" alt="image_geometry_2" class="img-projects" srcset="">
-    <h1 class="section-title">Projects</h1>
-    <div class="project-container">
-      <img src="./images/Rectangle 21.png" alt="project-1" class="project-img-rectangle">
-      <div class="project-info">
-        <h3 class="project-name">Project name goes here</h3>
-        <ul class="stack-list">
-          <li class="stack">HTML/CSS</li>
-          <li class="stack">Ruby On Rails</li>
-          <li class="stack">Javascript</li>
-        </ul>
-        <button type="button" class="see-project">See this project &nbsp;&nbsp;&nbsp; <span style='font-size:20px;'>&#8594;</span></span></button>
+    <div class="first-project-line">
+      <h1 class="section-title">Projects</h1>
+      <img src="./images/image_dots.png" alt="dot-image" class="dot-image-1" srcset="">
+      <div class="project-container">
+        <img src="./images/Rectangle 21.png" alt="project-1" class="project-img-rectangle">
+        <div class="project-info">
+          <h3 class="project-name">Project name goes here</h3>
+          <ul class="stack-list">
+            <li class="stack">HTML/CSS</li>
+            <li class="stack">Ruby On Rails</li>
+            <li class="stack">Javascript</li>
+          </ul>
+          <button type="button" class="see-project">See this project &nbsp;&nbsp;&nbsp; <span style='font-size:20px;'>&#8594;</span></span></button>
+        </div>
       </div>
     </div>
     <div class="project-container">
-      <img src="./images/Rectangle 21_2.png" alt="project-1" class="project-img-rectangle">
+      <img src="./images/Rectangle_46.png" alt="project-1" class="project-img-rectangle">
+      <img src="./images/image-geometry_2.png" alt="project-1_1" class="project-img-rectangle_1" srcset="">
       <div class="project-info">
         <h3 class="project-name">Project name goes here</h3>
         <ul class="stack-list">

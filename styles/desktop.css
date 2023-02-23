@@ -1,0 +1,250 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-header {
+  display: none;
+}
+
+.img-projects-mobile {
+  display: none;
+}
+
+.header {
+  border-bottom: 1px solid #dddfe6;
+}
+
+.desktop-flex-header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a2236;
+  justify-content: center;
+  gap: 5vw;
+  letter-spacing: 0.1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  cursor: pointer;
+}
+
+.desktop-flex-header-item:hover {
+  color: coral;
+}
+
+.active::after {
+  border-bottom: 3px solid #838383;
+  content: '';
+  display: block;
+  position: relative;
+  width: 70%;
+}
+
+.flex-main {
+  display: grid;
+  grid-template-columns: 54% 46%;
+}
+
+.left-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 10%;
+  padding-right: 7.5%;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 55px;
+  line-height: 100%;
+  color: #1a2236;
+  letter-spacing: 0.2vw;
+  margin: 0 0 1.5vh 0;
+}
+
+.greetings {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.greetings h3 {
+  margin-bottom: 1vh;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-projects-desktop {
+  width: 100%;
+  height: auto;
+}
+
+.button-collaboration {
+  width: 50%;
+  background: #1a2236;
+  color: #fff;
+  padding: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: 1px hidden;
+  letter-spacing: 0.01em;
+  margin-top: 1.5vh;
+  cursor: pointer;
+}
+
+.button-collaboration:hover {
+  background: #fff;
+  color: #1a2236;
+  font-weight: 700;
+  border: solid 1px #1a2236;
+}
+
+.left-main .dot-image-1 {
+  width: 27%;
+  height: auto;
+  align-self: flex-end;
+  margin-right: -8%;
+}
+
+.projects-section {
+  display: grid;
+  margin-top: 10vh;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.first-project-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  color: #1a2236;
+  transform: rotate(-90deg);
+  align-self: baseline;
+  margin: 7.5vh -5vh 0 -2vh;
+}
+
+.first-project-line .dot-image-1 {
+  width: auto;
+  height: 25%;
+  padding-right: 1vh;
+}
+
+.first-project-line .project-container {
+  width: 70%;
+}
+
+.first-project-line .project-container .project-img-rectangle {
+  width: 70vw;
+}
+
+.first-project-line .project-container .project-info {
+  background: rgba(26, 34, 54, 0.95);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  margin-top: -23vh;
+}
+
+.first-project-line .project-container .project-info h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  color: #fff;
+  padding-top: 3vh;
+  padding-left: 3.5vw;
+}
+
+.first-project-line .project-container .project-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 3.5vw;
+}
+
+.first-project-line .project-container .project-info ul li {
+  background: #98dede;
+  color: #1a2236;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+.first-project-line .project-container .project-info ul li:hover {
+  background: #fff;
+}
+
+.first-project-line .project-container .project-info button {
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 3.5vw;
+  padding: 5px 15px 5px 15px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  cursor: pointer;
+}
+
+.first-project-line .project-container .project-info button:hover {
+  background: #98dede;
+}
+
+.projects-section > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.projects-section > div:nth-child(2) .project-img-rectangle {
+  width: 30%;
+  height: max-content;
+}
+
+.projects-section > div:nth-child(2) .project-img-rectangle_1 {
+  width: 30%;
+  height: max-content;
+}
+
+.projects-section > div:nth-child(2) .project-info {
+  background-image: url('/Module-1/portfolio/images/Rectangle\ 25.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: fit-content;
+}
+
+.projects-section > div:nth-child(2) .project-info h3,
+.projects-section > div:nth-child(2) .project-info ul {
+  background: rgba(26, 34, 54, 0.95);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  margin: 0;
+  border: none;
+}
