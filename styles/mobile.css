@@ -8,7 +8,7 @@ html {
 /* mobile-version */
 @media only screen and (max-width: 767px) {
   .header {
-    border-bottom: none
+    border-bottom: none;
   }
 
   .desktop-flex-header {

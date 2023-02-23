@@ -33,6 +33,7 @@ html {
   letter-spacing: 0.1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  cursor: pointer;
 }
 
 .desktop-flex-header-item:hover {
@@ -105,6 +106,7 @@ html {
   border: 1px hidden;
   letter-spacing: 0.01em;
   margin-top: 1.5vh;
+  cursor: pointer;
 }
 
 .button-collaboration:hover {
@@ -125,6 +127,7 @@ html {
   display: grid;
   margin-top: 10vh;
   grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: ;
 }
 
 .first-project-line {
@@ -191,6 +194,7 @@ html {
   background: #98dede;
   color: #1a2236;
   padding: 5px 15px 5px 15px;
+  cursor: pointer;
 }
 
 .first-project-line .project-container .project-info ul li:hover {
@@ -207,6 +211,7 @@ html {
   padding: 5px 15px 5px 15px;
   margin-top: 3vh;
   margin-bottom: 3vh;
+  cursor: pointer;
 }
 
 .first-project-line .project-container .project-info button:hover {
@@ -215,5 +220,32 @@ html {
 
 .projects-section > div:nth-child(2) {
   display: flex;
+  flex-direction: row;
+}
+
+.projects-section > div:nth-child(2) .project-img-rectangle {
+  width: 30%;
+  height: min-content;
+}
+
+.projects-section > div:nth-child(2) .project-img-rectangle_1 {
+  width: 30%;
+  height: min-content;
+}
+
+.projects-section > div:nth-child(2) .project-info {
+  background-image: url('/Module-1/portfolio/images/Rectangle\ 25.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.projects-section > div:nth-child(2) .project-info h3,
+.projects-section > div:nth-child(2) .project-info ul {
+  background: rgba(26, 34, 54, 0.95);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  margin: 0;
+  border: none;
 }
 /* end of desktop-version */
