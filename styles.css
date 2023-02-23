@@ -147,7 +147,7 @@ html {
     background: #1a2236;
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0.5px);
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
   .project-info h3 {
@@ -159,19 +159,19 @@ html {
     letter-spacing: 0.02em;
     color: #fff;
     margin-top: 30px;
+    margin-bottom: 0;
   }
 
   .stack-list {
+    width: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 11px;
     line-height: 80%;
     color: #1a2236;
-    display: inline;
-    float: left;
-    gap: 15px;
     list-style: none;
+    padding-inline-start: 0;
   }
 
   .stack {
@@ -372,39 +372,44 @@ html {
 
   .yours label {
     display: block;
-    width: 85%;
+    width: 80%;
     color: #8f8c8c;
+    background: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
-    background: #fff;
     padding-left: 5%;
+    padding-right: 5%;
     padding-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-top: 1px solid rgb(173, 171, 171);
+    margin-left: 5%;
+    margin-right: 5%;
     border-left: 1px solid rgb(173, 171, 171);
     border-right: 1px solid rgb(173, 171, 171);
+    border-bottom: none;
+    border-top: 1px solid rgb(173, 171, 171);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
 
   .yours input,
   .yours textarea {
-    width: 83.5%;
-    border: none;
+    display: block;
+    width: 80%;
     background: #fff;
-    outline: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 40px;
-    height: 35px;
-    padding-left: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-left: 1px solid rgb(173, 171, 171);
     border-right: 1px solid rgb(173, 171, 171);
+    border-top: none;
     border-bottom: 1px solid rgb(173, 171, 171);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -414,19 +419,44 @@ html {
     height: 200px;
   }
 
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(29, 28, 28); /* Firefox */
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+
   .button-get-started {
     width: 90%;
     background: #1a2236;
     color: #fff;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
     border: 1px hidden;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 70px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
   }
 
   .button-get-started:hover {
@@ -434,6 +464,11 @@ html {
     color: #1a2236;
     font-weight: 500;
     border: solid 1px #1a2236;
+  }
+
+  .button-get-started:active {
+    background: #1a2236;
+    color: #fff;
   }
 
   .footer {
