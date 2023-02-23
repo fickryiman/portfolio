@@ -106,9 +106,10 @@ html {
     font-weight: 600;
   }
 
+  /* changes for project section, changes grid to float */
   .projects-section {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    float: inline-start;
   }
 
   .img-projects {
@@ -137,9 +138,10 @@ html {
     width: 100%;
   }
 
+  /* changes the project info list from flex to float */
   .project-info {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    float: left;
     gap: 25px;
     margin-top: -10px;
     background: #1a2236;
@@ -168,10 +170,6 @@ html {
     font-size: 11px;
     line-height: 80%;
     color: #1a2236;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: flex-start;
     list-style: none;
     padding-inline-start: 0;
   }
@@ -180,7 +178,7 @@ html {
     background: #98dede;
     padding: 10px 15px 10px 15px;
     letter-spacing: 0.1em;
-    width: fit-content;
+    display: inline;
   }
 
   .stack:hover {
@@ -210,7 +208,9 @@ html {
     color: #1a2236;
   }
 
+  /* changes for about section, changes grid to float */
   .about-section {
+    clear: both;
     display: flex;
     flex-flow: column wrap;
     gap: 10px;
