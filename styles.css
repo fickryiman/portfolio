@@ -45,7 +45,7 @@ html {
   padding-bottom: 0.3vh;
 }
 
-.desktop-nav > li:nth-child(1)::before{
+.desktop-nav > li:nth-child(1)::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -53,14 +53,11 @@ html {
   border-bottom: 3px solid #55648b;
   width: 75%;
 }
+
 /* navigation menu */
 
 /* name, greetings and picture */
-.flex-main {
-  
-}
-
-@media screen and (max-device-width:767px), screen and (max-width:767px) {
+@media screen and (max-device-width: 767px), screen and (max-width: 767px) {
   .desktop-nav {
     display: none;
   }
