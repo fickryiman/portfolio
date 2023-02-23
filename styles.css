@@ -2,12 +2,73 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* @media only screen and (min-width: 768px){
-} */
+.flex-header {
+  display: none;
+}
 
-@media only screen and (min-width: 375px) {
+/* navigation menu */
+.navigation-menu {
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  gap: 5vw;
+  padding-top: 1.3vh;
+  padding-bottom: 1vh;
+  padding-left: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a2236;
+}
+
+.desktop-nav > li {
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.desktop-nav > li:hover {
+  color: #ee5425;
+  transform: scale(1.7);
+}
+
+.desktop-nav > li:nth-child(1) {
+  /* border-bottom: 3px solid rgb(38, 38, 39); */
+  position: relative;
+  padding-bottom: 0.3vh;
+}
+
+.desktop-nav > li:nth-child(1)::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #55648b;
+  width: 75%;
+}
+/* navigation menu */
+
+/* name, greetings and picture */
+.flex-main {
+  
+}
+
+@media screen and (max-device-width:767px), screen and (max-width:767px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .navigation-menu {
+    border-bottom: none;
+  }
+
   .flex-header {
     display: flex;
     flex-flow: row wrap;
