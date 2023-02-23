@@ -127,7 +127,6 @@ html {
   display: grid;
   margin-top: 10vh;
   grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: ;
 }
 
 .first-project-line {
@@ -248,4 +247,5 @@ html {
   margin: 0;
   border: none;
 }
+
 /* end of desktop-version */
