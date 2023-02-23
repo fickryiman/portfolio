@@ -125,6 +125,7 @@ html {
 .projects-section {
   display: grid;
   margin-top: 10vh;
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .first-project-line {
@@ -162,7 +163,7 @@ html {
   background: rgba(26, 34, 54, 0.95);
   backdrop-filter: blur(12px);
   color: #fff;
-  margin-top: -20vh;
+  margin-top: -23vh;
 }
 
 .first-project-line .project-container .project-info h3 {
@@ -170,9 +171,8 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 33px;
-  line-height: 80%;
   color: #fff;
-  padding-top: 4vh;
+  padding-top: 3vh;
   padding-left: 3.5vw;
 }
 
@@ -194,6 +194,10 @@ html {
   padding: 5px 15px 5px 15px;
 }
 
+.first-project-line .project-container .project-info ul li:hover {
+  background: #fff;
+}
+
 .first-project-line .project-container .project-info button {
   background: #fff;
   font-family: 'Poppins', sans-serif;
@@ -205,4 +209,10 @@ html {
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
+
+.first-project-line .project-container .project-info button:hover {
+  background: #98dede;
+}
+
+
 /* end of desktop-version */
