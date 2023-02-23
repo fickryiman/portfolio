@@ -5,7 +5,6 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
-/* desktop-version */
 .flex-header {
   display: none;
 }
@@ -247,5 +246,3 @@ html {
   margin: 0;
   border: none;
 }
-
-/* end of desktop-version */
