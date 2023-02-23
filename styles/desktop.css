@@ -1,0 +1,93 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* desktop-version */
+.flex-header {
+  display: none;
+}
+
+.img-projects-mobile {
+  display: none;
+}
+
+.header {
+  border-bottom: 1px solid #DDDFE6;
+}
+
+.desktop-flex-header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #1A2236;
+  justify-content: center;
+  gap: 5vw;
+  letter-spacing: 0.1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.desktop-flex-header-item:hover {
+  color: coral;
+}
+
+.active:after {
+  border-bottom: 3px solid #838383;
+  content: '';
+  display: block;
+  position: relative;
+  width: 70%;
+}
+
+.flex-main {
+  display: grid;
+  grid-template-columns: 54% 46%;
+}
+
+.flex-main .left-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 7vw;
+  padding-right: 5vw;
+}
+
+.flex-main .left-main .name {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 3.7rem;
+  line-height: 100%;
+  color: #1a2236;
+  letter-spacing: 0.2vw;
+  margin: 0 0 2vh 0;
+
+}
+
+.flex-main .left-main .greetings {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.7rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
+}
+
+.flex-main .right-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-main .right-main .img-projects-desktop {
+  
+}
+/* end of desktop-version */

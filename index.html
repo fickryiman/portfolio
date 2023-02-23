@@ -9,15 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles/desktop.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
   <title>Fickry Porfolio</title>
 </head>
 <body>
-  <header class="desktop-version">
-
-  </header>
-  <!-- header for mobile version -->
-  <header class="mobile-header">
+  
+  <header class="header">
+    <!-- header for desktop-version -->
+    <ul class="desktop-flex-header">
+      <li class="desktop-flex-header-item active">Hello</li>
+      <li class="desktop-flex-header-item">Portfolio</li>
+      <li class="desktop-flex-header-item">About</li>
+      <li class="desktop-flex-header-item">Contact</li>
+    </ul>
+    <!-- end of header for desktop-version -->
+    <!-- header for mobile version -->
     <ul class="flex-header">
       <li class="flex-item">
         <a href="#"><img src="./images/image_geometry_1.png" alt="image_geometry_1" class="img-header" srcset=""></a>
@@ -32,15 +39,20 @@
   </header>
   <!-- end of header for mobile version -->
   <main class="flex-main">
-    <h1 class="name">Fickry <br>Bil Iman</h1>
-    <div class="greetings">
-      <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</h3>
-      <h3>If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
-    </div>
-    <button type="button" class="button-collaboration">Start collaboration</button>
+    <section class="left-main">
+      <h1 class="name">Fickry <br>Bil Iman</h1>
+      <div class="greetings">
+        <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</h3>
+        <h3>If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
+        <button type="button" class="button-collaboration">Start collaboration</button>
+      </div>
+    </section>
+    <section class="right-main">
+      <img src="./images/image-geometry_1.png" alt="image-geometry_1" class="img-projects-desktop" srcset="">
+      <img src="./images/image_geometry_2.png" alt="image_geometry_2" class="img-projects-mobile" srcset="">
+    </section>
   </main>
   <section class="projects-section">
-    <img src="./images/image_geometry_2.png" alt="image_geometry_2" class="img-projects" srcset="">
     <h1 class="section-title">Projects</h1>
     <div class="project-container">
       <img src="./images/Rectangle 21.png" alt="project-1" class="project-img-rectangle">
