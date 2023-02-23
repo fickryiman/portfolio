@@ -26,7 +26,6 @@ html {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
   text-align: right;
   color: #1A2236;
   justify-content: center;
@@ -56,30 +55,34 @@ html {
 .flex-main .left-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 7vw;
-  padding-right: 5vw;
+  justify-content: flex-end;
+  padding-left: 10%;
+  padding-right: 7.5%;
 }
 
-.flex-main .left-main .name {
+.left-main .name {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 550;
-  font-size: 3.7rem;
+  font-size: 55px;
   line-height: 100%;
   color: #1a2236;
   letter-spacing: 0.2vw;
-  margin: 0 0 2vh 0;
+  margin: 0 0 1.5vh 0;
 
 }
 
-.flex-main .left-main .greetings {
+.left-main .greetings {
   font-style: normal;
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 10px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1A2236;
+}
+
+.greetings h3 {
+  margin-bottom: 1vh;
 }
 
 .flex-main .right-main {
@@ -88,6 +91,61 @@ html {
 }
 
 .flex-main .right-main .img-projects-desktop {
-  
+  width: 100%;
+  height: auto;
+}
+
+.button-collaboration {
+  width: 50%;
+  background: #1a2236;
+  color: #fff;
+  padding: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: 1px hidden;
+  letter-spacing: 0.01em;
+  margin-top: 1.5vh;
+}
+
+.button-collaboration:hover {
+  background: #fff;
+  color: #1a2236;
+  font-weight: 700;
+  border: solid 1px #1a2236;
+}
+
+.left-main .dot-image-1 {
+  width: 27%;
+  height: auto;
+  align-self: flex-end;
+  margin-right: -8%;
+}
+
+.projects-section {
+  display: grid;
+  margin-top: 10vh;
+}
+
+.first-project-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #1A2236;
+  transform: rotate(-90deg);
+  align-self: baseline;
+  margin: 4.5vh -7vh 0 -5vh;
+}
+
+.first-project-line .dot-image-1 {
+  width: auto;
+  height: 25%;
+  padding-right: 1vh;
 }
 /* end of desktop-version */

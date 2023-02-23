@@ -19,6 +19,10 @@ html {
     display: none;
   }
 
+  .dot-image-1 {
+    display: none;
+  }
+
   .flex-header {
     display: flex;
     flex-flow: row wrap;
@@ -101,6 +105,7 @@ html {
     display: block;
     margin-top: 45px;
     width: 100%;
+    height: auto;
   }
 
   .button-about {
@@ -127,6 +132,11 @@ html {
     grid-template-columns: 1fr;
   }
 
+  .first-project-line {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .section-title {
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -134,9 +144,10 @@ html {
     font-size: 50px;
     line-height: 100%;
     color: #1a2236;
-    margin-top: 65px;
+    margin-top: 40px;
     margin-bottom: 45px;
-    padding-left: 20px;
+    margin-left: 20px;
+    transform: none;
   }
 
   .project-container {
