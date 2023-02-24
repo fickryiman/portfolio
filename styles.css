@@ -55,6 +55,7 @@ html {
   border-bottom: 3px solid #55648b;
   width: 75%;
 }
+
 /* end of navigation menu */
 
 /* name, greetings and picture */
@@ -75,7 +76,7 @@ html {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   font-size: 57px;
-  color: #1A2236;
+  color: #1a2236;
   margin: 0;
 }
 
@@ -122,29 +123,30 @@ html {
 
 .button-collaboration:hover {
   background: #fff;
-  box-shadow: 0px 2px 10px 5px #1abc9c;
+  box-shadow: 0 2px 10px 5px #1abc9c;
   color: #000;
 }
 
-.button-collaboration:after {
+.button-collaboration::after {
   content: "";
   background: #1abc9c;
   display: block;
   position: absolute;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
-.button-collaboration:active:after {
+.button-collaboration:active::after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
 
-.button:focus {
+.button: focus {
   outline:0; 
 }
+
 /* end of button collaboration top */
 
 .projects-section {
@@ -162,7 +164,7 @@ html {
   font-weight: 400;
   font-size: 80px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
   transform: rotate(-90deg);
   justify-self: center;
   align-self: flex-start;
@@ -211,10 +213,11 @@ html {
   background: #98dede;
 }
 
-.projects-section > div:nth-child(4) > div > ul > li:nth-child(1)
+.projects-section > div:nth-child(4) > div > ul > li:nth-child(1){}
 
 /* mobile version */
-@media screen and (max-device-width: 767px), screen and (max-width: 767px) {
+@media screen and (max-device-width: 767px), 
+screen and (max-width: 767px) {
   .desktop-nav,
   .dot-image-1,
   .big-image-1,
