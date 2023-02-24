@@ -37,12 +37,11 @@ html {
 }
 
 .desktop-nav > li:hover {
-  color: #ee5425;
-  transform: scale(1.7);
+  color: #f200a5;
+  transform: scale(1.8);
 }
 
 .desktop-nav > li:nth-child(1) {
-  border-bottom: 3px solid rgb(38, 38, 39);
   position: relative;
   padding-bottom: 0.3vh;
 }
@@ -52,7 +51,7 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  border-bottom: 3px solid #55648b;
+  border-bottom: 3px solid rgb(38, 38, 39);
   width: 75%;
 }
 
@@ -143,8 +142,8 @@ html {
   transition: 0s;
 }
 
-.button: focus {
-  outline:0; 
+.button:focus {
+  outline: 0;
 }
 
 /* end of button collaboration top */
@@ -192,6 +191,7 @@ html {
   background: rgba(26, 34, 54, 0.95);
   backdrop-filter: blur(12px);
   color: #fff;
+  height: 65%;
 }
 
 .projects-section > div:nth-child(4) > div > .project-name {
@@ -200,8 +200,8 @@ html {
   font-size: 35px;
   line-height: 80%;
   color: #fff;
-  margin-top: -15vh;
-  padding-top: 5vh;
+  margin-top: -16.5vh;
+  padding-top: 3.5vh;
   padding-left: 5%;
 }
 
@@ -209,15 +209,34 @@ html {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 3%;
-  background: #98dede;
+  gap: 4%;
+  padding-left: 5%;
 }
 
-.projects-section > div:nth-child(4) > div > ul > li:nth-child(1){}
+.projects-section > div:nth-child(4) > div > .stack-list li {
+  background: #98dede;
+  padding: 1.5% 3%;
+  color: #1a2236;
+}
+
+.projects-section > div:nth-child(4) > div > button {
+  background: #fff;
+  color: #1a2236;
+  margin: 5% 0% 5% 4%;;
+  padding: 1.5% 3.5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #1a2236;
+}
 
 /* mobile version */
+/* ================================================================= */
 @media screen and (max-device-width: 767px), 
-screen and (max-width: 767px) {
+    screen and (max-width: 767px) {
+ 
   .desktop-nav,
   .dot-image-1,
   .big-image-1,
