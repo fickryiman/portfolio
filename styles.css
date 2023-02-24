@@ -3,9 +3,11 @@ html {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  color: #1a2236;
 }
 
-.flex-header {
+.flex-header,
+.img-projects {
   display: none;
 }
 
@@ -40,7 +42,7 @@ html {
 }
 
 .desktop-nav > li:nth-child(1) {
-  /* border-bottom: 3px solid rgb(38, 38, 39); */
+  border-bottom: 3px solid rgb(38, 38, 39);
   position: relative;
   padding-bottom: 0.3vh;
 }
@@ -53,12 +55,170 @@ html {
   border-bottom: 3px solid #55648b;
   width: 75%;
 }
-
-/* navigation menu */
+/* end of navigation menu */
 
 /* name, greetings and picture */
+.flex-main {
+  display: grid;
+  grid-template-columns: 19% 19% 12% 50%;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.greetings {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  padding-left: 3.5vw;
+  align-self: center;
+}
+
+.greetings > h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 57px;
+  color: #1A2236;
+  margin: 0;
+}
+
+.greetings > h3 {
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 2vw;
+}
+
+.dot-image-1 {
+  grid-column: 3;
+  grid-row: 3;
+  width: 100%;
+  height: auto;
+  justify-self: end;
+  align-self: flex-end;
+}
+
+.big-image-1 {
+  grid-column: 4;
+  grid-row: 1 / 4;
+  width: 100%;
+  height: auto;
+}
+
+/* button collaboration top */
+.button-collaboration {
+  width: 50%;
+  background: #1a2236;
+  color: #fff;
+  padding: 20px 0 20px 0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  text-align: center;
+  border: none;
+  margin-top: 3vh;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 10px #193047;
+  border-radius: 3px;
+}
+
+.button-collaboration:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #1abc9c;
+  color: #000;
+}
+
+.button-collaboration:after {
+  content: "";
+  background: #1abc9c;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button-collaboration:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.button:focus {
+  outline:0; 
+}
+/* end of button collaboration top */
+
+.projects-section {
+  display: grid;
+  grid-template-columns: 10% 10% 12% 10% 15% 15% 18% 10%;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 13vw;
+}
+
+.section-title {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  color: #1A2236;
+  transform: rotate(-90deg);
+  justify-self: center;
+  align-self: flex-start;
+}
+
+.dot-image-2 {
+  grid-column: 3;
+  grid-row: 1;
+  width: 100%;
+  height: auto;
+  justify-self: first baseline;
+  align-self: self-start;
+}
+
+.projects-section > div:nth-child(4) {
+  grid-column: 4 / 9;
+}
+
+.projects-section > div:nth-child(4) > img {
+  width: 100%;
+  height: auto;
+}
+
+.projects-section > div:nth-child(4) > .project-info {
+  background: rgba(26, 34, 54, 0.95);
+  backdrop-filter: blur(12px);
+  color: #fff;
+}
+
+.projects-section > div:nth-child(4) > div > .project-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 80%;
+  color: #fff;
+  margin-top: -15vh;
+  padding-top: 5vh;
+  padding-left: 5%;
+}
+
+.projects-section > div:nth-child(4) > div > .stack-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 3%;
+  background: #98dede;
+}
+
+.projects-section > div:nth-child(4) > div > ul > li:nth-child(1)
+
+/* mobile version */
 @media screen and (max-device-width: 767px), screen and (max-width: 767px) {
-  .desktop-nav {
+  .desktop-nav,
+  .dot-image-1,
+  .big-image-1,
+  .dot-image-2 {
     display: none;
   }
 
@@ -101,13 +261,11 @@ html {
     font-size: 50px;
     line-height: 100%;
     color: #1a2236;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 15px;
+    padding: 40px 0 10px 4.5vw;
     width: 80%;
   }
 
-  .greetings {
+  .greetings > h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -115,8 +273,9 @@ html {
     line-height: 25px;
     letter-spacing: 0.08em;
     color: #1a2236;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -127,7 +286,7 @@ html {
     align-self: center;
     background: #1a2236;
     color: #fff;
-    padding: 15px;
+    padding: 15px 0 15px 0;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -135,6 +294,8 @@ html {
     text-align: center;
     border: 1px hidden;
     margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 3.5%;
   }
 
   .button-collaboration:hover {
@@ -166,15 +327,20 @@ html {
 
   .projects-section {
     display: grid;
-    grid-template-columns: 1fr;
   }
 
   .img-projects {
+    display: inline;
+    grid-column: 1 / 10;
+    grid-row: 1;
     margin-top: 45px;
     width: 100%;
+    height: min-content;
   }
 
   .section-title {
+    grid-column: 1 / 9;
+    grid-row: 2;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -184,18 +350,19 @@ html {
     margin-top: 65px;
     margin-bottom: 45px;
     padding-left: 20px;
+    transform: none;
   }
 
-  .project-container {
-    display: flex;
-    flex-direction: column;
+  .projects-section > div:nth-child(4) {
+    grid-column: 1 / 9;
+    grid-row: 3;
   }
 
-  .project-img-rectangle {
+  .projects-section > div:nth-child(4) > .project-img-rectangle {
     width: 100%;
   }
 
-  .project-info {
+  .projects-section > div:nth-child(4) > .project-info {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -206,7 +373,107 @@ html {
     padding-left: 25px;
   }
 
-  .project-info h3 {
+  .projects-section > div:nth-child(5) {
+    grid-column: 1 / 9;
+    grid-row: 4;
+  }
+
+  .projects-section > div:nth-child(5) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(5) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(6) {
+    grid-column: 1 / 9;
+    grid-row: 5;
+  }
+
+  .projects-section > div:nth-child(6) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(6) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(7) {
+    grid-column: 1 / 9;
+    grid-row: 6;
+  }
+
+  .projects-section > div:nth-child(7) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(7) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(8) {
+    grid-column: 1 / 9;
+    grid-row: 7;
+  }
+
+  .projects-section > div:nth-child(8) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(8) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(9) {
+    grid-column: 1 / 9;
+    grid-row: 8;
+  }
+
+  .projects-section > div:nth-child(9) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(9) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section .project-info h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
