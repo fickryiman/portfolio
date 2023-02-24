@@ -31,7 +31,30 @@ html {
   color: #1a2236;
 }
 
+.desktop-nav > li {
+  cursor: pointer;
+  transition: transform 1s;
+}
 
+.desktop-nav > li:hover {
+  color: #ee5425;
+  transform: scale(1.7);
+}
+
+.desktop-nav > li:nth-child(1) {
+  border-bottom: 3px solid rgb(38, 38, 39);
+  position: relative;
+  padding-bottom: 0.3vh;
+}
+
+.desktop-nav > li:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #55648b;
+  width: 75%;
+}
 /* end of navigation menu */
 
 /* name, greetings and picture */
