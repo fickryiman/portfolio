@@ -78,15 +78,23 @@ html {
   .greetings > h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    font-size: 57px;
+    font-size: 70px;
     color: #1a2236;
     margin: 0;
+    padding-left: 5%;
   }
 
   .flex-main > .greetings > h3 {
     font-weight: 400;
     font-size: 14px;
     padding-right: 2vw;
+  }
+
+  .flex-main > .greetings > h3 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    padding: 0 2vw 0 0;
   }
 
   .dot-image-1 {
@@ -118,7 +126,7 @@ html {
     letter-spacing: 0.1vw;
     text-align: center;
     border: none;
-    margin-top: 3vh;
+    margin-top: 1vh;
     cursor: pointer;
     transition-duration: 0.4s;
     overflow: hidden;
@@ -485,13 +493,6 @@ html {
     line-height: 21px;
   }
 
-  .flex-main > .greetings > h3 {
-    text-align: justify;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 4vh;
-  }
-
   .form-message {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -634,4 +635,5 @@ html {
     padding-top: 5%;
     padding-left: 15vw;
   }
+  
 }
