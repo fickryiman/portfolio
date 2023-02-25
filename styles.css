@@ -445,7 +445,6 @@ html {
 .get-started-section {
   grid-column: 2;
   grid-row: 1 / 5;
-  padding-bottom: 5vh;
 }
 
 .get-started-background > section > h1 {
