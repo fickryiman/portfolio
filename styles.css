@@ -339,7 +339,7 @@ html {
   height: auto;
   position: relative;
   top: -15.3vh;
-  right: -3.8vh
+  right: -3.8vh;
 }
 
 .projects-section > div:nth-child(9) > .project-info {
@@ -356,7 +356,7 @@ html {
   margin-top: 0;
 }
 
-.projects-section > div:nth-child(9) > .project-info > .stack-list{
+.projects-section > div:nth-child(9) > .project-info > .stack-list {
   display: flex;
   list-style: none;
   gap: 1.5vw;
@@ -367,7 +367,7 @@ html {
 .projects-section > div:nth-child(9) > .project-info > .stack-list > .stack {
   font-weight: 300;
   font-size: 12px;
-  color: #1A2236;
+  color: #1a2236;
   background: #98dede;
   padding: 1.5%;
 }
@@ -394,7 +394,6 @@ html {
   color: #fff;
   font-weight: 700;
 }
-
 
 .projects-section > div:nth-child(10) {
   display: none;
