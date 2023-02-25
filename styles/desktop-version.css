@@ -8,7 +8,6 @@ html {
 
 @media screen and (min-device-width: 768px),
   screen and (min-width: 768px) {
-
   .flex-header,
   .img-projects {
     display: none;
@@ -325,7 +324,6 @@ html {
   .projects-section > div:nth-child(7) > .img-small {
     display: initial;
     grid-column: 1 / 5;
-    display: flex;
     justify-content: space-between;
     height: 30%;
   }
@@ -487,7 +485,7 @@ html {
     line-height: 21px;
   }
 
-  .get-started-background > section > div > h3 {
+  .flex-main > .greetings > h3 {
     text-align: justify;
     padding: 0;
     margin: 0;
@@ -548,9 +546,8 @@ html {
 
   .yours > label.label-textarea-desktop {
     display: initial;
-
   }
-  
+
   #textarea {
     grid-column: 1 / 3;
     grid-row: 2;
