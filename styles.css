@@ -232,8 +232,8 @@ html {
 }
 
 /* mobile version */
-@media screen and (max-device-width: 767px), 
-    screen and (max-width: 767px) {
+@media screen and (max-device-width: 767px),
+      screen and (max-width: 767px) {
   .desktop-nav,
   .dot-image-1,
   .big-image-1,
@@ -372,8 +372,8 @@ html {
     transform: none;
   }
 
-/* start here for project section */
-/* global css for project secion */
+  /* start here for project section */
+  /* global css for project secion */
   .projects-section .project-info h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -438,7 +438,7 @@ html {
     color: #1a2236;
     font-weight: 700;
   }
-/* end of global css for project secion */
+  /* end of global css for project secion */
 
   .projects-section > div:nth-child(4) {
     grid-column: 1 / 9;
@@ -502,7 +502,6 @@ html {
     letter-spacing: 0.1em;
     color: #fff;
     font-weight: 500;
-    background: #1a2236;
     border: 1px solid #fff;
   }
 
@@ -524,7 +523,7 @@ html {
   .projects-section > div:nth-child(4) > div > button:hover {
     background: #fff;
     color: #1a2236;
-    font-weight: 700
+    font-weight: 700;
   }
 
   .projects-section > div:nth-child(5) {
@@ -544,7 +543,6 @@ html {
     background: #1a2236;
     backdrop-filter: blur(0.5px);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
     padding-left: 25px;
   }
 
@@ -565,7 +563,6 @@ html {
     background: #1a2236;
     backdrop-filter: blur(0.5px);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
     padding-left: 25px;
   }
 
@@ -586,7 +583,6 @@ html {
     background: #1a2236;
     backdrop-filter: blur(0.5px);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
     padding-left: 25px;
   }
 
@@ -607,7 +603,6 @@ html {
     background: #1a2236;
     backdrop-filter: blur(0.5px);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
     padding-left: 25px;
   }
 
@@ -628,7 +623,6 @@ html {
     background: #1a2236;
     backdrop-filter: blur(0.5px);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
     padding-left: 25px;
   }
 
