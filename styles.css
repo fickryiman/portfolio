@@ -242,6 +242,7 @@ html {
   grid-template-columns: repeat(3, 10%);
   padding-top: 1vh;
 }
+
 .projects-section > div:nth-child(5) > .project-img-rectangle {
   grid-column: 1 / 4;
   grid-row: 2;
@@ -323,11 +324,6 @@ html {
 
 .projects-section > div:nth-child(7) > .project-info {
   display: none;
-}
-
-.projects-section > div:nth-child(7) > .project-img-rectangle {
-  width: 100%;
-  height: auto;
 }
 
 .projects-section > div:nth-child(8) {
