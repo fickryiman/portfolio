@@ -516,7 +516,6 @@ html {
   border-right: 1px solid rgb(173, 171, 171);
   border-bottom: 1px solid rgb(173, 171, 171);
   border-left: 1px solid rgb(173, 171, 171);
-  border-bottom: 1px solid rgb(173, 171, 171);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -530,13 +529,12 @@ html {
   padding-right: 0;
 }
 
-#getting-started-form > .form-message > div:nth-child(3) > textarea {
-  margin: 0;
-  /* margin-left: -10% */
-}
-
 .yours textarea {
   height: 100px;
+}
+
+#getting-started-form > .form-message > div:nth-child(3) > textarea {
+  margin: 0;
 }
 
 #getting-started-form {
@@ -573,16 +571,12 @@ html {
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
-  /* padding-left: 5%;
-  padding-right: 5%; */
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   border: 1px hidden;
   margin-top: 5%;
-  /* margin-left: 5%;
-  margin-right: 5%; */
   margin-bottom: 50px;
 }
 
@@ -1335,7 +1329,6 @@ html {
 
   #getting-started-form > .form-message > div:nth-child(3) > textarea {
     margin-left: 3%;
-    /* margin-right: 2vw; */
     padding-right: 5vw;
     padding-left: 5vw;
   }
