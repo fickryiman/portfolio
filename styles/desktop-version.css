@@ -87,12 +87,6 @@ html {
   .flex-main > .greetings > h3 {
     font-weight: 400;
     font-size: 14px;
-    padding-right: 2vw;
-  }
-
-  .flex-main > .greetings > h3 {
-    font-weight: 400;
-    font-size: 14px;
     text-align: justify;
     padding: 0 2vw 0 0;
   }
@@ -635,5 +629,4 @@ html {
     padding-top: 5%;
     padding-left: 15vw;
   }
-  
 }
