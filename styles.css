@@ -445,6 +445,7 @@ html {
 .get-started-section {
   grid-column: 2;
   grid-row: 1 / 5;
+  padding-bottom: 5vh;
 }
 
 .get-started-background > section > h1 {
@@ -1386,6 +1387,7 @@ html {
   }
 
   .footer {
+    display: block;
     background: #1a2236;
     color: #98dede;
     font-family: 'Poppins', sans-serif;
@@ -1397,7 +1399,7 @@ html {
 
   .footer h2 {
     margin-top: 0;
-    padding-top: 45px;
+    padding-top: 25px;
     padding-left: 8vw;
     padding-bottom: 35px;
     letter-spacing: 2px;
@@ -1410,6 +1412,6 @@ html {
     padding-left: 8vw;
     width: 24px;
     height: 24px;
-    padding-bottom: 8vh;
+    padding-bottom: 4vh;
   }
 }
