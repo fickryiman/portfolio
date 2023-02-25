@@ -229,14 +229,11 @@ html {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #1a2236;
 }
 
 /* mobile version */
-/* ================================================================= */
 @media screen and (max-device-width: 767px), 
     screen and (max-width: 767px) {
- 
   .desktop-nav,
   .dot-image-1,
   .big-image-1,
