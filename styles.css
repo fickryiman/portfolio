@@ -233,7 +233,7 @@ html {
 
 /* mobile version */
 @media screen and (max-device-width: 767px),
-      screen and (max-width: 767px) {
+    screen and (max-width: 767px) {
   .desktop-nav,
   .dot-image-1,
   .big-image-1,
@@ -373,6 +373,7 @@ html {
   }
 
   /* start here for project section */
+
   /* global css for project secion */
   .projects-section .project-info h3 {
     font-family: 'Poppins', sans-serif;
@@ -438,6 +439,7 @@ html {
     color: #1a2236;
     font-weight: 700;
   }
+  
   /* end of global css for project secion */
 
   .projects-section > div:nth-child(4) {
