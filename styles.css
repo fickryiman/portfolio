@@ -222,7 +222,7 @@ html {
 .projects-section > div:nth-child(4) > div > button {
   background: #fff;
   color: #1a2236;
-  margin: 5% 0% 5% 4%;;
+  margin: 5% 0 5% 4%;
   padding: 1.5% 3.5%;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -375,126 +375,8 @@ html {
     transform: none;
   }
 
-  .projects-section > div:nth-child(4) {
-    grid-column: 1 / 9;
-    grid-row: 3;
-  }
-
-  .projects-section > div:nth-child(4) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(4) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
-  .projects-section > div:nth-child(5) {
-    grid-column: 1 / 9;
-    grid-row: 4;
-  }
-
-  .projects-section > div:nth-child(5) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(5) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
-  .projects-section > div:nth-child(6) {
-    grid-column: 1 / 9;
-    grid-row: 5;
-  }
-
-  .projects-section > div:nth-child(6) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(6) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
-  .projects-section > div:nth-child(7) {
-    grid-column: 1 / 9;
-    grid-row: 6;
-  }
-
-  .projects-section > div:nth-child(7) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(7) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
-  .projects-section > div:nth-child(8) {
-    grid-column: 1 / 9;
-    grid-row: 7;
-  }
-
-  .projects-section > div:nth-child(8) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(8) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
-  .projects-section > div:nth-child(9) {
-    grid-column: 1 / 9;
-    grid-row: 8;
-  }
-
-  .projects-section > div:nth-child(9) > .project-img-rectangle {
-    width: 100%;
-  }
-
-  .projects-section > div:nth-child(9) > .project-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: -10px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-    padding-left: 25px;
-  }
-
+/* start here for project section */
+/* global css for project secion */
   .projects-section .project-info h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -535,6 +417,8 @@ html {
     padding: 10px 15px 10px 15px;
     letter-spacing: 0.1em;
     color: #fff;
+    border: 1px solid #fff;
+    font-weight: 500;
   }
 
   .see-project {
@@ -555,6 +439,200 @@ html {
   .see-project:hover {
     background: #fff;
     color: #1a2236;
+    font-weight: 700;
+  }
+/* end of global css for project secion */
+
+  .projects-section > div:nth-child(4) {
+    grid-column: 1 / 9;
+    grid-row: 3;
+    height: fit-content;
+  }
+
+  .projects-section > div:nth-child(4) > .project-img-rectangle {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects-section > div:nth-child(4) > .project-info {
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 15vh;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    height: fit-content;
+  }
+
+  .projects-section > div:nth-child(4) > div > .project-name {
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 80%;
+    color: #fff;
+    padding-top: 3.5vh;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+
+  .projects-section > div:nth-child(4) > div > .stack-list {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 80%;
+    color: #1a2236;
+    gap: 10px;
+    justify-content: flex-start;
+    list-style: none;
+    padding-bottom: 5%;
+  }
+
+  .projects-section > div:nth-child(4) > div > .stack-list li {
+    background: #98dede;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 0.1em;
+    width: fit-content;
+  }
+
+  .projects-section > div:nth-child(4) > div > .stack-list li:hover {
+    background: #1a2236;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-weight: 500;
+    background: #1a2236;
+    border: 1px solid #fff;
+  }
+
+  .projects-section > div:nth-child(4) > div > button {
+    width: fit-content;
+    background: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+  }
+
+  .projects-section > div:nth-child(4) > div > button:hover {
+    background: #fff;
+    color: #1a2236;
+    font-weight: 700
+  }
+
+  .projects-section > div:nth-child(5) {
+    grid-column: 1 / 9;
+    grid-row: 4;
+  }
+
+  .projects-section > div:nth-child(5) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(5) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(6) {
+    grid-column: 1 / 9;
+    grid-row: 5;
+  }
+
+  .projects-section > div:nth-child(6) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(6) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(7) {
+    grid-column: 1 / 9;
+    grid-row: 6;
+  }
+
+  .projects-section > div:nth-child(7) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(7) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(8) {
+    grid-column: 1 / 9;
+    grid-row: 7;
+  }
+
+  .projects-section > div:nth-child(8) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(8) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
+  }
+
+  .projects-section > div:nth-child(9) {
+    grid-column: 1 / 9;
+    grid-row: 8;
+  }
+
+  .projects-section > div:nth-child(9) > .project-img-rectangle {
+    width: 100%;
+  }
+
+  .projects-section > div:nth-child(9) > .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -10px;
+    background: #1a2236;
+    backdrop-filter: blur(0.5px);
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    padding-left: 25px;
   }
 
   .about-section {
