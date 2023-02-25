@@ -414,6 +414,7 @@ html {
 }
 
 /* start about section desktop version */
+
 /* .all-about {
   display: grid;
   grid-template-columns: 55% 45%;
@@ -451,8 +452,8 @@ html {
   grid-column: 2;
   grid-row: 1;
 } */
-/* end of  about section
 
+/* end of  about section
 
 /* mobile version */
 @media screen and (max-device-width: 767px),
