@@ -1,8 +1,5 @@
 /* mobile version */
 
-/* @media screen and (max-device-width: 767px),
-  screen and (max-width: 767px) { */
-
 body,
 html {
   margin: 0;
@@ -232,8 +229,6 @@ html {
 }
 
 .projects-section > div:nth-child(4) > .project-info {
-  /* display: flex;
-  flex-direction: column; */
   margin-top: -4.5vh;
   background: #1a2236;
   backdrop-filter: blur(0.5px);

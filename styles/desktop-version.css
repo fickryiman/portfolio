@@ -509,8 +509,8 @@ html {
     line-height: 15px;
     padding-top: 5px;
     text-align: start;
-    padding-left: 5%;
     border: none;
+    padding-left: 0;
   }
 
   .yours input,
